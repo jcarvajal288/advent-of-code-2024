@@ -6,4 +6,9 @@ defmodule Day1Test do
     example_data = File.read!("lib/data/day1_example.txt")
     assert Day1.reconcile_lists(example_data) == 11
   end
+
+  test "day 1 full input" do
+    example_data = File.read!("lib/data/day1_full.txt")
+    assert Day1.reconcile_lists(example_data) == 11
+  end
 end
